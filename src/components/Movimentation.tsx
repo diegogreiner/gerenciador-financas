@@ -32,7 +32,6 @@ export default function Movimentation({ id, entrada }: { id: number, entrada: bo
             <label>Descrição:
               <textarea name="description" value={movimentation.description} disabled ></textarea>
             </label>
-            <ButtonEntrada type='submit'>Confirmar</ButtonEntrada>
           </ContainerForm>
           ))
         }
