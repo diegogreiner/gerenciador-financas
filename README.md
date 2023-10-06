@@ -34,3 +34,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Gestor Financeiro
+
+Este projeto tem como objetivo fornecer uma prática significativa em Next.js, Context API e Styled Components. Ele permitirá que os usuários visualizem os dados de entrada, saída e total em todas as páginas. Ao clicar no botão 'adicionar', os usuários serão direcionados para uma nova rota que contém um formulário para preenchimento. Após a conclusão, eles serão redirecionados de volta para a página inicial, onde a nova movimentação será exibida na tabela. Além disso, na tabela, os usuários terão a capacidade de remover movimentações e acessar detalhes adicionais sobre cada uma delas.
