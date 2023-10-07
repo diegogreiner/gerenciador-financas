@@ -17,7 +17,6 @@ export default function RootLayout({
     <html lang="pt-br">
       <body suppressHydrationWarning={true}>
         <MovimentationProvider>
-          <Cashier />
           {children}
         </MovimentationProvider>
       </body>

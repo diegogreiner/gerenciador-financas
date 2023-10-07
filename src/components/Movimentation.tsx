@@ -4,6 +4,7 @@ import { useContext } from 'react';
 import { MovimentationContext } from '@/context/Context';
 import Link from 'next/link';
 import { ButtonBack, ButtonEntrada, ContainerForm, ContainerHeader, Container } from '@/styled/Form';
+import Cashier from './Cashier';
 
 export default function Movimentation({ id, entrada }: { id: number, entrada: boolean }) {
   const { movimentations } = useContext(MovimentationContext);
@@ -13,6 +14,7 @@ export default function Movimentation({ id, entrada }: { id: number, entrada: bo
   }
   return (
     <>
+      <Cashier />
       <Container>
         <ContainerHeader>
           <h2>Dados de {entrada ? 'entrada' : 'saída'} do id {id}:</h2>

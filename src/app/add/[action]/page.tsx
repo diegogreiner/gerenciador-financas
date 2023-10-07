@@ -6,6 +6,7 @@ import { MovimentationContext } from '@/context/Context';
 import { ButtonBack, ButtonEntrada, Container, ContainerForm, ContainerHeader } from '@/styled/Form';
 import { ParamsAction } from '@/types/ParamsType';
 import Link from 'next/link';
+import Cashier from '@/components/Cashier';
 
 export default function Form({ params }: { params: ParamsAction }) {
   const { movimentations, setMovimentations } = useContext(MovimentationContext);
@@ -33,6 +34,7 @@ export default function Form({ params }: { params: ParamsAction }) {
 
   return (
     <>
+      <Cashier />
       <Container>
         <ContainerHeader>
           <h2>Insira os dados de {params.action === 'entrada' ? 'entrada' : 'saída'}</h2>
