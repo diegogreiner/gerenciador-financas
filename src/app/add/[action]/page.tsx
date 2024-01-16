@@ -47,7 +47,7 @@ export default function Form({ params }: { params: ParamsAction }) {
             <input type="text" name='title' placeholder='Insira o título' onChange={e => setTitle(e.target.value)} />
           </label>
           <label> Valor:
-            <input type="text" name='value' placeholder='Insira o valor' onChange={e => setValue(e.target.value)} />
+            <input type="number" name='value' placeholder='Insira o valor' onChange={e => setValue(e.target.value)} />
           </label>
           <label>Descrição:
             <textarea name="description" placeholder='Insira a descrição' onChange={e => setDescription(e.target.value)}></textarea>

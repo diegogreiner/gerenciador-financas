@@ -29,7 +29,7 @@ export default function Movimentation({ id, entrada }: { id: number, entrada: bo
               <input type="text" name='title' value={movimentation.title} disabled />
             </label>
             <label> Valor:
-              <input type="text" name='value' value={currentBr(movimentation.value)} disabled />
+              <input type="number" name='value' value={currentBr(movimentation.value)} disabled />
             </label>
             <label>Descrição:
               <textarea name="description" value={movimentation.description} disabled ></textarea>
